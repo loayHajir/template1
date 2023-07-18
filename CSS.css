@@ -1,0 +1,110 @@
+body{
+    background-color: gray;
+    overflow: hidden;
+}
+.start{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+}
+.title{
+    line-height: 16px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.body{
+    background-color: rgba(128, 128, 128, 0.651);
+    display: flex;
+    height: 580px;
+}
+.par1,.par2{
+    padding-left:30px ;
+    font-size:17px ;
+    text-align:justify;
+    width: 50%;
+}
+.navbar{
+    position: absolute;
+    right: 278px;
+    width: 14%;
+    background-color: rgba(0, 0, 0, 0.699);
+    height: 575px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+    margin: 7px;
+    color: white;
+}
+.nav li{
+    margin-top: 10px;
+}
+.navbar h2{
+    color: white;
+    margin-left:15px ;
+}
+
+@media (max-width:767px){
+
+}
+@media (min-width:768px){
+
+}
+@media (min-width:992px){
+
+}
+@media (min-width:1200px){
+
+}
+/* 
+@media (min width 1000p){
+    a{
+    text-decoration: waves; 
+    color: white;
+}
+had al code m3nah mn al 0 ll 1000px al text decoration none fo2 hik bsir waves
+}
+
+in media queries 
+min width 100px y3ni mn 0 la alf pixel bnfz al code al tbi3i a3la mn hik bnfz al code yly ktbto bl querie
+*/
+
+
+/* 
+
+mobile
+@media (max-width:767px){
+    
+}
+
+small screen
+@media (min-width:768px) and (max-width:768){
+
+}
+
+medium
+@media (min-width:992px){
+
+}
+
+large screen
+@media (min-width:1200px){
+
+}
+
+x large screen
+@media (min-width:1400px){
+
+}
+
+custom
+@media (max-width:1199px){
+
+} 
+
+*/
